@@ -6,57 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <title>拍益得 | 商票收益权拍卖平台</title>
+  <title>平台简称 | 平台全称</title>
   <meta name="description"
-    content="拍益得为核心企业提供商票收益权拍卖服务。围绕核心企业供应链上下游及商业承兑汇票展开，借助核心企业信用提升供应链上中小微企业融资能力，减轻核心企业业务支付压力，促进产业链共荣发展。" />
+    content="" />
   <meta name="keywords"
-    content="电票，电子票据，商业承兑汇票，电子承兑汇票，电子汇票，电子商票，商票，电票融资，电子商业承兑汇票融资，承兑汇票融资，票据融资，票据，票据网，票据交易，票据收益权，票据收益权拍卖，票据拍卖，拍卖" />
+    content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <script>
-    var _mode = "<%= VUE_APP_CURRENTMODE %>";
-
-    var os = function os() {
-      var ua = navigator.userAgent,
-      isWindowsPhone = /(?:Windows Phone)/.test(ua),
-      isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,
-      isAndroid = /(?:Android)/.test(ua),
-      isFireFox = /(?:Firefox)/.test(ua),
-      isChrome = /(?:Chrome|CriOS)/.test(ua),
-      isTablet = /(?:iPad|PlayBook)/.test(ua) || (isAndroid && !/(?:Mobile)/.test(ua)) || (isFireFox && /(?:Tablet)/.test(ua)),
-      isPhone = /(?:iPhone)/.test(ua) && !isTablet,
-      isPc = !isPhone && !isAndroid && !isSymbian;
-
-      return {
-          isPhone: isPhone,
-          isAndroid : isAndroid
-      };
-    }();
-    // 手机端访问PC 站，跳转到首页
-    if (_mode.toLocaleLowerCase() === 'prod') {
-      if(os.isAndroid || os.isPhone) {
-        location.href = 'https://m.51paiyide.com/dist/#/branding';
-      }
-    }
-    // // 百度统计
-    // if (_mode.toLocaleLowerCase() === 'prod') {
-    //   var _hmt = _hmt || [];
-    //   window._hmt = _hmt;//将对象挂载到window对象上
-    //   (function () {
-    //     var hm = document.createElement("script");
-    //     hm.src = "https://hm.baidu.com/hm.js?df8651aef29a713ed3a845501d500d44";
-    //     var s = document.getElementsByTagName("script")[0];
-    //     s.parentNode.insertBefore(hm, s);
-    //   })();
-    // }
-
-
-  </script>
 </head>
 
 <body>
   <noscript>
-    <strong>We're sorry but fe-pyd-pc doesn't work properly without JavaScript enabled. Please enable it to
+    <strong>We're sorry but bjjj doesn't work properly without JavaScript enabled. Please enable it to
       continue.<%= VUE_APP_BUILDTIME %></strong>
   </noscript>
   <div id="app"></div>
