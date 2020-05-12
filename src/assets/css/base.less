@@ -1,0 +1,62 @@
+@import "./normalize.less";
+
+/** project custom */
+.page-root{
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.layout-center{
+  width: 1200px;
+  min-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/**
+ * Reset
+ */
+
+body,p,ul,ol,li,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,input{
+  margin:0;
+  padding:0;
+  list-style:none;
+  outline-style: none;
+  -webkit-text-size-adjust: 100%!important;
+  font:14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,'Microsoft YaHei', Helvetica, Arial, sans-serif;;
+}
+i{
+  font-style:normal;
+}
+u{
+  text-decoration:none;
+}
+b{
+  font-weight: 400;
+}
+input{
+  border-radius: 0;
+  outline:none;
+  width:100%;
+}
+a{
+  text-decoration:none;
+}
+
+/**
+ * Utils
+ */
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
